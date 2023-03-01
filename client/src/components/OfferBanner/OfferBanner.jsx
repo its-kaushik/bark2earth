@@ -2,8 +2,8 @@ import './OfferBanner.scss'
 
 const OfferBanner = ({ OfferMessage }) => {
     return (
-        <div className="OfferBanner" >
-            <div className="OfferMessage" >
+        <div className="offer-banner" >
+            <div className="offer-message" >
                 { OfferMessage }
             </div>
         </div>
