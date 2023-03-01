@@ -1,4 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+
+    font-family: 'Fibra';
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

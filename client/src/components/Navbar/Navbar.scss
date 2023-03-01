@@ -1,0 +1,29 @@
+.navbar {
+
+    background-color: #F8F3E2;
+
+    .wrapper{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .right{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 45px;
+
+            .item{
+
+                font-size: 16px;
+
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+
+                color: #3F3328;
+            }
+        }
+    }
+}
