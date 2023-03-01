@@ -1,6 +1,12 @@
-const OfferBanner = () => {
+import './OfferBanner.scss'
+
+const OfferBanner = ({ OfferMessage }) => {
     return (
-        <h1>This is offer Banner</h1>
+        <div className="OfferBanner" >
+            <div className="OfferMessage" >
+                { OfferMessage }
+            </div>
+        </div>
     );
 }
 
