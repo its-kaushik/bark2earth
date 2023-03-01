@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar/Navbar";
 import OfferBanner from "./components/OfferBanner/OfferBanner";
 import Home from "./pages/Home/Home";
 
+import './App.scss';
+
 const OfferMessage = 'Free Same Day Shipping Anywhere in Canada on Qualifying Orders Over $50';
 
 const Layout = () => {
