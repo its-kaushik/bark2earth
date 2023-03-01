@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-client",
+    "client": "npm run start --prefix client",
+    "watch": "npm run client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mayank Kaushik",
